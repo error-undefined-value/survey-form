@@ -1,0 +1,73 @@
+body {
+	font-family: roboto, sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+	background-position: center;
+}
+
+#title, #description {
+	text-align: center;
+}
+
+#survey-form {
+	background: #0e2f44;
+	width: 522px;
+ 	margin: auto;
+	padding: 50px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	border-radius: 10px;
+	opacity: 90%;
+}
+
+label {
+	display: block;
+	color: white;
+}
+
+#submit {
+	display: block;
+	margin: auto;
+	width: 522px;
+	padding: 10px;
+	font-family: roboto,sans-serif;
+	font-size: 1rem;
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+
+#name, #email, #number, #comment {
+	width: 500px;
+	font-size: 1rem;
+	padding: 10px;
+	font-family: roboto, sans-serif;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+#dropdown {
+	width: 522px;
+	font-size: 1rem;
+	padding: 10px;
+	font-family: roboto, sans-serif;
+	border-radius: 5px;
+}
+
+.form-group p {
+	color: white;
+	margin-bottom: 10px;
+}
+
+input:focus, #comment:focus {
+	box-shadow: 0px 0px 10px 0px rgba(0,111,255,1);
+}
+
+#submit:hover {
+	box-shadow: 0px 0px 10px 0px rgba(0,255,77,1);
+}
+
+#name-label, #email-label, #number-label, #language-label {
+	margin-bottom: 10px;
+}
